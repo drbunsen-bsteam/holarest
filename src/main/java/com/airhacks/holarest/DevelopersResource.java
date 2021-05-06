@@ -14,7 +14,8 @@ public class DevelopersResource {
 
     @GET
     @Path("{first}-{last}")
-    public String developer(@PathParam("first") String first, @PathParam("last") String last){
-        return first + " - " + last;
+    public Developer developer(@PathParam("first") String first, @PathParam("last") String last){
+//        return new Developer(first, last);
+        return new Developer("easy", "peasy");
     }
 }
