@@ -24,3 +24,10 @@ Simple Java REST client
 1. curl test
    
    ``curl -H "Accept: application/json" http://localhost:8080/holarest/resources/developers``
+
+###How to test REST with exception handling
+1. Run app
+1. http://localhost:8080/holarest/resources/developers throws an exception with ADDiTiONAL iNFO.
+1. curl test
+
+   ``curl -i -H "Accept: application/json" http://localhost:8080/holarest/resources/developers``

@@ -14,9 +14,11 @@ import javax.ws.rs.core.HttpHeaders;
 public class DevelopersResource {
 
     @GET
-    public JsonArray developers(){
+    public JsonArray developers() {
         JsonObject jsonObject = Json.createObjectBuilder().add("firstname", "dutches").build();
-        return Json.createArrayBuilder().add(jsonObject).build();
+//        return Json.createArrayBuilder().add(jsonObject).build();
+        // here will be put a service and this could throw an exception ... how to deal it ...
+        throw new RuntimeException("No developers found!");
     }
 
     @GET
