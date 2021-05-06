@@ -1,4 +1,4 @@
-package com.airhacks;
+package com.airhacks.holarest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

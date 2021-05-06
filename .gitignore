@@ -1,3 +1,11 @@
+/target/
+*.iml
+!/.idea/
+/.idea/*
+!/.idea/runConfigurations/
+
+!.gitkeep
+
 # Compiled class file
 *.class
 
